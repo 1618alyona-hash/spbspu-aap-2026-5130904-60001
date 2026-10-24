@@ -1,14 +1,7 @@
 #include <iostream>
 
-namespace alekseenko {
-void printName()
-{
-  std::cout << "alekseenko.alyona" << std::endl;
-}
-}
-
 int main()
 {
-  alekseenko::printName();
+  std::cout << "alekseenko.alyona\n";
   return 0;
 }
